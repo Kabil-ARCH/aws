@@ -7,7 +7,7 @@
 
 ### VPC : 
 
-![aws](vpc_aws.png)
+![aws](./pictures/vpc_aws.png)
 
 VPC makes the isolated network from the cloud and makes every services to communicate locally and over the internet through separate features .
 
