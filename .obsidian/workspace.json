@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "aws/VPC.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
@@ -182,11 +182,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "companion:Toggle completion": false
+      "companion:Toggle completion": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "b525fb89af82e81b",
   "lastOpenFiles": [
+    "git.pub",
+    "git",
     "aws/EC2.md",
     "aws/Cloud computing.md",
     "aws/VPC.md",
