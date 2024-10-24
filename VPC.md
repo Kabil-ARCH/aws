@@ -79,6 +79,6 @@ vpc peering enables us to connect two vpc on the separate regions such as
 
  If I want to connect or extend my network over two vpc regions I can provision my vpc peering to extend my infrastructure.
 
-#### Connecting on-premisis server with aws: 
+#### Connecting on-premisis server with AWS: 
 
 In order to have connection with on-premsis server with aws to establish hybrid cloud **AWS Direct Connect** service is used for  a private connection between your infrastructure and AWS through a dedicated physical network link. This connection bypasses the public internet, providing more consistent and predictable performance.
