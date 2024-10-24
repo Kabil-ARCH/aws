@@ -3,8 +3,6 @@
 - VPC is a network service helps in managing network traffic across our cloud infrastructure .
 - It helps in making secure way of managing our network traffic with components like public and private subnets , route table , igw , NATgw , ACL , security groups .
 
-
-
 ### VPC : 
 
 ![aws](./pictures/vpc_aws.png)
@@ -38,7 +36,36 @@ Allows two-way traffic between instances and the internet (both inbound and outb
 
 - Route tables can route traffic to your on-premises network via a VPN or Direct Connect, facilitating hybrid cloud architectures.
 
+#### SECURITY IN NETWORKING : 
 
+ In VPC there are two layers of security is provided,
+
+- security groups : 
+
+	**USAGE** : 
+	they acts are virtual firewalls , Security groups are applied to an individual resource, like an EC2 instance, elastic network interface, or a database.They are stateful which specifies once an outbound access is configures inbound will always allowed .
+	
+	**ROLE SPECIFIC**:
+		It can be applied to any compute or storage instances.
+		By default all inbound access are denied and all out bound access are allowed
+
+> [!NOTE]
+> In a **stateful** system, if a connection is allowed in one direction (e.g., incoming traffic), the response traffic (e.g., outgoing traffic for that connection) is automatically allowed without needing an explicit rule. This makes managing rules easier, as you only need to define one side of the communication.		
+
+- NETWORK ACCESS CONTROL LIST (NACL) : 
+
+	**USAGE** :
+	It gives security provisioning at subnet layer  which refers that it gives protection to entire subnet . They are stateless
+
+	By default, NACLs allow all inbound and outbound traffic unless explicitly configured otherwise.
+	
+	**RULES PRIORITY**:
+	NACL rules are evaluated in order, starting from the lowest numbered rule. The first rule that matches the traffic type is applied.
+
+> [!NOTE]
+> In a **stateless** system, both inbound and outbound traffic rules need to be explicitly defined. It does not automatically allow response traffic, so you must define separate rules for both directions of communication.
+	
+	
 
 
 
