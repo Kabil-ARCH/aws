@@ -16,11 +16,11 @@ VPC makes the isolated network from the cloud and makes every services to commun
 subnets named public and private subnets can be created for a single vpc.
 - private subnets can not accessed from internet and and compute services or other services can access their resources from internet through NAT gateway
 
-*no inbound access only outbound access when using NAT gateway*
+	`no inbound access only outbound access when using NAT gateway`
 
 - public subnets can be accessed through internet by configuring igw (INTERNET GATEWAY).
 
-*inbound and outbound access through igw*
+	`inbound and outbound access through igw`
 
 > [!NOTE]
 > INTERNET GATEWAY (igw):
