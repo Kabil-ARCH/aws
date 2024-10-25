@@ -23,6 +23,7 @@ There are two types of compute instance types offered by AWS .
 | Availability     | Guaranteed only with On-Demand Capacity reservation                           | Always guaranteed                                                        |
 | On-selling       | Optional; Switch off if you no longer require it and no further charges apply | You can buy and sell Reserved Instances on the AWS Instances Marketplace |
 
+---
 ### EC2 Instance family types : 
 
 As mentioned above there are huge family of compute instances under EC2 compute instances some of them are ,
@@ -41,6 +42,7 @@ These instances are basically ideal for memory dependent databases and other pro
 These are instances dependent on most of GPU oriented tasks like Machine learning model training and high parallel processing tasks it will be much better suited . 
 - p and G family instances .
 
+---
 ### Compute Instances over other services like paas and saas : 
 
 ### AWS Lambda : 
@@ -63,4 +65,6 @@ They charge for number of request in-terms of time and duration of the function 
 ### ELASTIC BEAN STALK : 
 
 It helps developers by managing all the infrastructue provisioning and management only thing we have to manage is our source code of our application . 
+
+---
 

@@ -2,7 +2,6 @@
 
 - VPC is a network service helps in managing network traffic across our cloud infrastructure .
 - It helps in making secure way of managing our network traffic with components like public and private subnets , route table , igw , NATgw , ACL , security groups .
-
 ### VPC : 
 
 ![aws](./pictures/vpc_aws.png)
@@ -19,6 +18,8 @@ subnets named public and private subnets can be created for a single vpc.
 - public subnets can be accessed through internet by configuring igw (INTERNET GATEWAY).
 
 	`inbound and outbound access through igw`
+
+
 
 > [!NOTE]
 > INTERNET GATEWAY (igw):
@@ -37,7 +38,6 @@ Allows two-way traffic between instances and the internet (both inbound and outb
 - Route tables can route traffic to your on-premises network via a VPN or Direct Connect, facilitating hybrid cloud architectures.
 
 ---
-
 #### SECURITY IN NETWORKING : 
 
  In VPC there are two layers of security is provided,
@@ -69,9 +69,7 @@ Allows two-way traffic between instances and the internet (both inbound and outb
 > [!NOTE]
 > In a **stateless** system, both inbound and outbound traffic rules need to be explicitly defined. It does not automatically allow response traffic, so you must define separate rules for both directions of communication.
 
-
 ---
-
 ### VPC Peering : 
 
 vpc peering enables us to connect two vpc on the separate regions such as 
@@ -80,7 +78,6 @@ vpc peering enables us to connect two vpc on the separate regions such as
 *Asia Pacific (Hyderabad) - `ap-south-2`* 
 
  If I want to connect or extend my network over two vpc regions I can provision my vpc peering to extend my infrastructure.
-
 #### Connecting on-premisis server with AWS: 
 
 In order to have connection with on-premsis server with aws to establish hybrid cloud **AWS Direct Connect** service is used for  a private connection between your infrastructure and AWS through a dedicated physical network link. This connection bypasses the public internet, providing more consistent and predictable performance.
