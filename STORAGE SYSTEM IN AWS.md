@@ -33,5 +33,6 @@ It can be ideal for
 - Data lakes for big data analytics.
 - Application data storage for web applications.
 
+<p align="center">S3 storage classes is to be updated</p>
 
 
