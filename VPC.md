@@ -64,6 +64,8 @@ Allows two-way traffic between instances and the internet (both inbound and outb
 	**RULES PRIORITY**:
 	NACL rules are evaluated in order, starting from the lowest numbered rule. The first rule that matches the traffic type is applied.
 
+
+
 > [!NOTE]
 > In a **stateless** system, both inbound and outbound traffic rules need to be explicitly defined. It does not automatically allow response traffic, so you must define separate rules for both directions of communication.
 
@@ -82,3 +84,5 @@ vpc peering enables us to connect two vpc on the separate regions such as
 #### Connecting on-premisis server with AWS: 
 
 In order to have connection with on-premsis server with aws to establish hybrid cloud **AWS Direct Connect** service is used for  a private connection between your infrastructure and AWS through a dedicated physical network link. This connection bypasses the public internet, providing more consistent and predictable performance.
+
+--- 
