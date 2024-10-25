@@ -4,7 +4,7 @@ EC2 is the major compute service offered by AWS . It has wide range of compute s
 
 EC2 instances are directly attached with EBS(elastic block storage) for their root file system , which provides higher iops and low-latency . 
 
-![](../pictures/ec2-instances.jpeg)
+![compute_services](../pictures/ec2-instances.jpeg)
 
 #### Reservation types for instances : 
 
