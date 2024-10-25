@@ -19,3 +19,19 @@ Basically kubernetes is organized by small components to manage and auto scale o
 We can use all AWS services with in using ECS which makes more efficient to handle or container orchestration with AWS .
 
 It dosn't helpful in managing orchestration outside AWS which makes it difficult to handle container orchestration on other cloud platforms and with on-premisis servers.
+
+### EKS(Elastic Kubernetes Service): 
+EKS is the general kubernetes in AWS which follows traditional kubernetes architecture to manage clusters .
+
+
+![](./pictures/kubernetes-cluster-architecture.svg)
+
+![](./pictures/Kubernetes-Architecture.webp)
+
+
+**KUBERNETES ARCHITECTURE** :
+Basically kubernetes can be divided into two main components 
+- Master node
+- Worker nodes
+
+<p align="center">Yet to be updated</p>
